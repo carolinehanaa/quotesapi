@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "XYf4mf66W0i5E064L7I1RNOpBuVTSYAN7nAJLxNjmcEUvXe8n5vYRPU+cDcuVivmHa7rYpuiAICSo87bSrvWfQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\carol\\Documents\\CodeStack 22-23\\Mental Health App\\quotesapi\\quotesapi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\carol\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\carol\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\carol\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\carol\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\carol\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\carol\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
