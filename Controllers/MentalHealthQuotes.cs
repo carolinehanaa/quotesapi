@@ -527,7 +527,7 @@ namespace HanaC_AllForOneApi.Controllers
         [HttpGet]
         [Route("GetAllQuotes")]
 
-        public List<string> GetAllQuotes(string? allQuotes)
+        public List<string?> GetAllQuotes(string? allQuotes)
         {
             
 
