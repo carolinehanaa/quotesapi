@@ -1,10 +1,4 @@
-using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 using QuotesApi.Models;
 
 
@@ -514,7 +508,7 @@ namespace HanaC_AllForOneApi.Controllers
         public List<QuotesListModel> GetQuote(string categorys)
         {
             var result = new List<QuotesListModel>();
-            
+
 
             for (int i = 0; i < quotesList.Count; i++)
             {
@@ -522,10 +516,24 @@ namespace HanaC_AllForOneApi.Controllers
                 {
                     result.Add(quotesList[i]);
                 }
-             
+
 
             }
-             return result;
+            return result;
+        }
+
+
+
+        [HttpGet]
+        [Route("GetAllQuotes")]
+
+        public List<string> GetAllQuotes(string? allQuotes)
+        {
+            
+
+            var filteredQuotes = quotesList.Select(q => q.quote);
+            
+            return filteredQuotes.ToList();
         }
     }
 }
